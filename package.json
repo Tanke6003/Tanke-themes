@@ -1,0 +1,29 @@
+{
+  "name": "mich-themes",
+  "displayName": "Mich Themes",
+  "description": "Conjunto de temas de Visual Studio Code especialmente para Mich <3",
+  "version": "0.0.2",
+  "publisher": "tanke6003",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Azulito 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-night-color-theme.json"
+      },
+      {
+        "label":"Moradito 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moradito-1-color-theme.json"
+      },
+      {
+        "label": "Moradito 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moradito-2-color-theme.json"
+      }
+    ]
+  }
+}
