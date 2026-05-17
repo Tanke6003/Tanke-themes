@@ -1,25 +1,40 @@
 {
-  "name": "mich-themes",
-  "displayName": "Mich Themes Pack",
-  "description": "Conjunto de temas de Visual Studio Code especialmente para Mich <3",
-  "version": "0.0.5",
+  "name": "tanke-themes",
+  "displayName": "Tanke Themes",
+  "description": "A collection of carefully crafted dark themes — deep blues, neon purples, and full cyberpunk aesthetics.",
+  "version": "0.1.0",
   "publisher": "tanke6003",
   "engines": {
     "vscode": "^1.50.0"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/tanke6003/mich-themes"
-},
+    "type": "git",
+    "url": "https://github.com/tanke6003/mich-themes"
+  },
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
-   
       {
-        "label": "Moradito Mich 💜",
+        "label": "Abyss Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/mich-moradito-color-theme.json"
+        "path": "./themes/abyss-blue-color-theme.json"
+      },
+      {
+        "label": "Velvet Amethyst",
+        "uiTheme": "vs-dark",
+        "path": "./themes/velvet-amethyst-color-theme.json"
+      },
+      {
+        "label": "Neon Lilac",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-lilac-color-theme.json"
+      },
+      {
+        "label": "Cyber Void",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyber-void-color-theme.json"
       }
     ]
   },
-  "keywords": ["theme", "dark", "purple", "Mich", "VSCode"]
+  "keywords": ["theme", "dark", "purple", "blue", "cyberpunk", "neon", "VSCode"]
 }
