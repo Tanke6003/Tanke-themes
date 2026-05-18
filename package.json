@@ -36,5 +36,6 @@
       }
     ]
   },
+  "license": "MIT",
   "keywords": ["theme", "dark", "purple", "blue", "cyberpunk", "neon", "VSCode"]
 }
