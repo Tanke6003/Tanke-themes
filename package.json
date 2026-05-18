@@ -2,7 +2,7 @@
   "name": "tanke-themes",
   "displayName": "Tanke Themes",
   "description": "A collection of carefully crafted dark themes — deep blues, neon purples, and full cyberpunk aesthetics.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "tanke6003",
   "engines": {
     "vscode": "^1.50.0"
@@ -33,6 +33,11 @@
         "label": "Cyber Void",
         "uiTheme": "vs-dark",
         "path": "./themes/cyber-void-color-theme.json"
+      },
+      {
+        "label": "Rose Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rose-dusk-color-theme.json"
       }
     ]
   },
