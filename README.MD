@@ -69,18 +69,16 @@ Full cyberpunk aesthetic. Near-black void background with electric cyan function
 
 ## Installation
 
-### From the Marketplace
-
-1. Open VS Code
-2. Open **Extensions** panel (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. Search for **Tanke Themes**
-4. Click **Install**
-
 ### From a `.vsix` file
 
+1. Download **[tanke-themes-0.1.0.vsix](https://github.com/Tanke6003/Tanke-themes/releases/latest)** from the releases page
+2. Install it with:
+
 ```bash
-code --install-extension tanke-themes-x.x.x.vsix
+code --install-extension tanke-themes-0.1.0.vsix
 ```
+
+Or drag and drop the `.vsix` file directly into VS Code.
 
 ### Selecting a theme
 
